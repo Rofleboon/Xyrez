@@ -1,0 +1,17 @@
+.machmitteamk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+    background-color: dimgray
+}
+
+@media screen and (min-width: 1000px)
+{
+.alert
+    {
+        width:500px;
+    }
+}
+
