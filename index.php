@@ -24,8 +24,8 @@ $current = 0;
                     <li class="nav-item active">
                         <a class="nav-link" href="http://xyrez.de">Home <span class="sr-only">(current)</span></a>
                     </li>
-                     <li class="nav-item active">
-                        <a class="nav-link" href="http://xyrez.de/lastfight.php">Letzter Fight <span class="sr-only">(current)</span></a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://progstats.io/details/eu/malganis/620556-ist-gildenlos/all/28-sanctum-of-domination" target=_blank>Progstats.io <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -39,19 +39,23 @@ $current = 0;
             $id = $wcl_base_array[$current]['id'];
             $title = $wcl_base_array[$current]['title'];
             $owner = $wcl_base_array[$current]['owner'];
+            $timestamp = $wcl_base_array[$current]['start'];
+            $datetime = date("d.m.y", $timestamp);
             $current++;
-        ?><div class="container-fluid alert alert-primary text-center" style="max-width:100%"><?php
-            echo "<a href =\"https://www.warcraftlogs.com/reports/$id\" target = _blank>$title by $owner</a><br>";
+        ?>
+        <div class="container-fluid alert alert-primary text-center" style="max-width:100%"><?php
+            echo "<a href =\"https://www.warcraftlogs.com/reports/$id\" target = _blank>$datetime: $title by $owner</a><br>";
         ?></div>
         <div class="container-fluid alert alert-primary text-center" style="max-width:100%"><?php
             echo "<a href =\"https://www.wipefest.gg//report/$id\" target = _blank>Wipefest</a><br>";
         ?></div>
+
         <hr style="height: 5px; color: black; background-color:darkblue; width: 500px;";>
         <?php
         }
         ?>
     </body>
         <footer>
-    <div>© 2019-2020 Xyrez </div>
+    <div>© 2022 Xyrez </div>
     </footer>
 </html>
