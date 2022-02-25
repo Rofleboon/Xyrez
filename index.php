@@ -95,6 +95,7 @@ $current = 0;
             <div class="d-inline p-2"><?php
                 echo "<a href =\"https://www.wipefest.gg//report/$id\" target = _blank>Wipefest</a>";
             ?></div>
+            </div>
 
         <?php
         }
