@@ -5,7 +5,7 @@ $wcl_base_url = 'https://www.warcraftlogs.com:443/v1/reports/guild/ist%20Gildenl
 $wcl_base_json = file_get_contents($wcl_base_url);
 $wcl_base_array = json_decode($wcl_base_json, true);
 $_SESSION["total"] = 0;
-$amount = 9;
+$amount = 14;
 
 function showData($amount, $current, $wcl_base_array){        
         for ($x = 0; $x <= $amount; $x++) {
@@ -114,22 +114,10 @@ function showData($amount, $current, $wcl_base_array){
         
         <?php            
         showData($amount, $_SESSION["total"], $wcl_base_array);      
-        
-        
-            
-        if(array_key_exists('load1', $_POST)) {               
-        showData($amount, $_SESSION["total"], $wcl_base_array);
-        }
-        
-        
 
-      
         ?>
         
-        <form method="post">
-        <input type="submit" name="load1"
-                class="button"value="load more..."/>
-        </form>
+
         
         </div>
         <?php
