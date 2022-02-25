@@ -1,10 +1,67 @@
-.machmitteamk {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 body {
-    background-color: dimgray
+    background-color: lightgray;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    width: auto;
+    display: block;
+}
+
+a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #333333;
+}
+
+h2{
+
+    font-size: 14px;
+    letter-spacing: 0.5;
+}
+
+a.hover{
+
+    color: #000;
+    text-decoration: underline;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.wrapper{
+float: none;
+  margin-top: 40px;
+}
+
+
+li{
+  margin: 0 20px;
+}
+
+.links {
+
+    width: auto;
+    align: right;
+}
+
+.entry{
+    float: left;
+    text-align:  right;
+    background-color: #fff;
+    padding: 40 40 40 40;
+    border-radius: 8px;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+.entry-item{
+    padding: 40px;
+    width: auto;
 }
 
 @media screen and (min-width: 1000px)

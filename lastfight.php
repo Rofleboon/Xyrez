@@ -1,6 +1,6 @@
 
 <?php
-$wcl_base_url = 'https://www.warcraftlogs.com:443/v1/reports/guild/how%20bizarre/Blackmoore/EU?api_key=4a17488a491b8980ee6c89d6c1ae8b94';
+$wcl_base_url = 'https://www.warcraftlogs.com:443/v1/reports/guild/ist%20Gildenlos/MalGanis/EU?api_key=4a17488a491b8980ee6c89d6c1ae8b94';
 $wcl_base_json = file_get_contents($wcl_base_url);
 $wcl_base_array = json_decode($wcl_base_json, true);
 $id = $wcl_base_array[0]['id'];
