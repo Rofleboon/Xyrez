@@ -4,10 +4,7 @@ $wcl_base_url = 'https://www.warcraftlogs.com:443/v1/reports/guild/ist%20Gildenl
 $wcl_base_json = file_get_contents($wcl_base_url);
 $wcl_base_array = json_decode($wcl_base_json, true);
 $current = 0;
-
-
 ?>
-
 
 
 <html>
