@@ -17,7 +17,7 @@ session_start();
 if(isset($_POST['login'])){
     // Redirect the user to the Battle.net login page
     $client_id = '17d284d6c3594fafa8085ee0eafca4cf';
-    $redirect_uri = 'https://www.xyrez.de/callback.php';
+    $redirect_uri = 'https://xyrez.de/callback.php';
     $scope = 'wow.profile';
     $state = 'some_random_string';
 

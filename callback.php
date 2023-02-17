@@ -12,7 +12,7 @@ if(isset($_GET['code']) && isset($_GET['state'])){
     // Exchange the authorization code for an access token
     $client_id = '17d284d6c3594fafa8085ee0eafca4cf';
     $client_secret = '2R44KaER3EQNqSAGgZdPGuKzOGphz5fx';
-    $redirect_uri = 'https://www.xyrez.de/callback.php';
+    $redirect_uri = 'https://xyrez.de/callback.php';
     $code = $_GET['code'];
 
     $token_url = 'https://oauth.battle.net/authorize';
