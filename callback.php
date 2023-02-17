@@ -33,6 +33,6 @@ if(isset($_GET['code']) && isset($_GET['state'])){
     $_SESSION['access_token'] = $access_token;
 
     // Redirect to the main page
-    header('location: index.php');
+    header('location: index.html');
 }
 ?>
