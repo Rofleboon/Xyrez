@@ -19,7 +19,7 @@ if(isset($_POST['login'])){
     $client_id = '17d284d6c3594fafa8085ee0eafca4cf';
     $redirect_uri = 'https://xyrez.de/callback.php';
     $scope = 'wow.profile';
-    $state = 'some_random_string';
+    $state = 'lasagna';
 
     $login_url = 'https://oauth.battle.net/authorize';
     $login_url .= '?response_type=code';
