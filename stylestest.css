@@ -66,7 +66,7 @@ nav a:hover {
     color: #fff;
 }
   
-.btn {
+a.btn {
     background-color: #4e4e4e;
     color: white;
     border: none;
@@ -80,10 +80,10 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.btn-wcl {
+a.btn-wcl {
     background-color: #2a7bd3;
 }
 
-.btn-wf {
+a.btn-wf {
     background-color: #f7c331;
 }
