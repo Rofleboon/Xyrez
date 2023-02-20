@@ -1,0 +1,87 @@
+/* Add custom styles for the guild log page */
+body {
+    background-color: #1c202b;
+    color: #d8d8d8;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .entry {
+    background-color: #2d303e;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .logname {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .btn {
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .btn-primary {
+    background-color: #0577b8;
+    color: #d8d8d8;
+  }
+  
+  .btn-primary:hover {
+    background-color: #005d8f;
+  }
+  
+  /* Add styles for the Battle.net logo */
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    height: 70px;
+  }
+  
+  /* Add styles for the navigation menu */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #d8d8d8;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
