@@ -11,8 +11,8 @@ function fetchdata() {
             return `
             <div class="container entry">
                 <p class="logname">${timeConverter(wcl.start)} ${wcl.title}</p>
-                <a href="https://www.warcraftlogs.com/reports/${wcl.id}" target="_blank" class="btn btn-primary btn-wcl">Warcraftlogs</a>
-                <a href="https://www.wipefest.gg//report/${wcl.id}" target="_blank" class="btn btn-primary btn-wf">Wipefest</a>
+                <a href="https://www.warcraftlogs.com/reports/${wcl.id}" target="_blank" class="btn btn-wcl">Warcraftlogs</a>
+                <a href="https://www.wipefest.gg//report/${wcl.id}" target="_blank" class="btn btn-wf">Wipefest</a>
             </div>
         `                        
         }).join('')            
