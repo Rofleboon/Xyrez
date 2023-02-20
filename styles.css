@@ -67,18 +67,13 @@ li{
     width: auto;
 }
 
-a.btn {
-    background-color: #4e4e4e;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 5px;
+a.btn{
+    
+    width: 45%;    
+    background-color: grey;
+    border-color: #000;
+    
+
 }
 
 a.btn-wcl {
@@ -88,7 +83,6 @@ a.btn-wcl {
 a.btn-wf {
     background-color: #839db8;
 }
-
 
 a.btn:hover{
     background: black;
@@ -125,6 +119,8 @@ a{
     margin-top: 40px;
     width: 35%;
 }
+
+
 
 
 }
