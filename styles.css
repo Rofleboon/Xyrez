@@ -112,6 +112,28 @@ a{
     width: 35%;
 }
 
-
+a.btn {
+    background-color: #4e4e4e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
+a.btn-wcl {
+    background-color: #2a7bd3;
+}
+
+a.btn-wf {
+    background-color: #f7c331;
+}
+
+
+
+}
