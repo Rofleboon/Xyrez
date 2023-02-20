@@ -8,13 +8,13 @@ function fetchdata() {
       })
       .then(data => {
         const html = data.slice(0, 15).map(wcl =>{              
-          return `                
-            <div class="container entry ">
-              <p class="logname"2>${timeConverter(wcl.start)} ${wcl.title}</p>
-              <a href =\"https://www.warcraftlogs.com/reports/${wcl.id}\" target = _blank class = "btn btn-primary">Warcraftlogs</a>               
-              <a href =\"https://www.wipefest.gg//report/${wcl.id}\" target = _blank class="btn btn-primary">Wipefest</a><br>                        
-            </div>                  
-          `                
+            return `
+            <div class="container entry">
+                <p class="logname">${timeConverter(wcl.start)} ${wcl.title}</p>
+                <a href="https://www.warcraftlogs.com/reports/${wcl.id}" target="_blank" class="btn btn-primary btn-wcl">Warcraftlogs</a>
+                <a href="https://www.wipefest.gg//report/${wcl.id}" target="_blank" class="btn btn-primary btn-wf">Wipefest</a>
+            </div>
+        `                        
         }).join('')            
         document
           .querySelector('#logs')
